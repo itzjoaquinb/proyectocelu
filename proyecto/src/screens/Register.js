@@ -88,5 +88,48 @@ class Register extends Component{
 }
 };
 
+const styles = StyleSheet.create({
+    title:{
+        fontSize:20,
+        fontWeight:'bold',
+        marginBottom:5,
+        marginTop: 7,
+    },
+    boton:{
+        backgroundColor:'orange',
+        borderRadius:4,
+        padding:10,
+        alignItems:'center',
+        marginBottom:7,
+        marginTop: 7,
+    },
+    boton2:{
+        backgroundColor:'lightblue',
+        borderRadius:4,
+        padding:10,
+        alignItems:'center',
+        marginTop: 9,
+    },
+    conteiner:{
+        padding:10
+    },
+    input:{
+        borderColor: 'grey',
+        borderRadius: 3,
+        borderWidth: 2,
+        padding: 10,
+    },
+    subtitle:{
+        fontSize:15,
+        fontWeight:'semibold',
+        marginBottom:5,
+        marginTop:7,
+    },
+    error: {
+        color: 'red',
+        marginTop: 10,
+        textAlign: 'center'
+    }
+});
 
 export default Register
