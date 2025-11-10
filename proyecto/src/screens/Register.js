@@ -89,46 +89,59 @@ class Register extends Component{
 };
 
 const styles = StyleSheet.create({
-    title:{
-        fontSize:20,
-        fontWeight:'bold',
-        marginBottom:5,
-        marginTop: 7,
-    },
-    boton:{
-        backgroundColor:'orange',
-        borderRadius:4,
-        padding:10,
-        alignItems:'center',
-        marginBottom:7,
-        marginTop: 7,
-    },
-    boton2:{
-        backgroundColor:'lightblue',
-        borderRadius:4,
-        padding:10,
-        alignItems:'center',
-        marginTop: 9,
-    },
     conteiner:{
-        padding:10
+        flex: 1, 
+        padding: 20,
+        backgroundColor: '#f9f9f9', 
     },
-    input:{
-        borderColor: 'grey',
-        borderRadius: 3,
-        borderWidth: 2,
-        padding: 10,
+    title:{
+        fontSize: 28,
+        fontWeight: 'bold',
+        marginBottom: 20,
+        color: '#333', 
+        textAlign: 'center',
     },
     subtitle:{
-        fontSize:15,
-        fontWeight:'semibold',
-        marginBottom:5,
-        marginTop:7,
+        fontSize: 16,
+        fontWeight: '600', 
+        marginBottom: 8,
+        marginTop: 15,
+        color: '#555',
+    },
+    input:{
+        borderColor: '#ddd', 
+        borderRadius: 8, 
+        borderWidth: 1,
+        padding: 12,
+        backgroundColor: '#fff', 
+        fontSize: 16,
+    },
+    boton:{ 
+        backgroundColor: '#e1e1e1', 
+        borderRadius: 8,
+        padding: 12,
+        alignItems: 'center',
+        marginBottom: 15,
+        marginTop: 10,
+    },
+    boton2:{ 
+        backgroundColor: '#007bff', 
+        borderRadius: 8,
+        padding: 15,
+        alignItems: 'center',
+        marginTop: 25,
     },
     error: {
-        color: 'red',
-        marginTop: 10,
-        textAlign: 'center'
+        color: '#dc3545', 
+        marginTop: 15,
+        textAlign: 'center',
+        fontSize: 14,
+        fontWeight: '500',
+    },
+    boton2Text: {
+        color: '#fff', 
+        fontWeight: 'bold', 
+        fontSize: 18
     }
 });
 
