@@ -43,7 +43,7 @@ class Post extends Component{
     }
 
     goToComments(){
-        this.props.navigation.navigate('DynamicForm', { postId: this.props.id });
+        this.props.navigation.navigate('Comentarios', { postId: this.props.id });
     }
 
     borrarBoton() {
