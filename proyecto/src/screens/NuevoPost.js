@@ -78,40 +78,53 @@ class NuevoPost extends Component{
 
 
 const styles = StyleSheet.create({
-    title:{
-        fontSize:20,
-        fontWeight:'bold',
-        marginBottom:5,
-        marginTop: 7,
-    },
-    boton2:{
-        backgroundColor:'lightblue',
-        borderRadius:4,
-        padding:10,
-        alignItems:'center',
-        marginTop: 9,
-    },
     conteiner:{
-        padding:10
+        flex: 1, 
+        padding: 20,
+        backgroundColor: '#f9f9f9',
     },
-    input:{
-        borderColor: 'grey',
-        borderRadius: 3,
-        borderWidth: 2,
-        padding: 10,
-        height: 100, 
-        textAlignVertical: 'top', 
+    title:{
+        fontSize: 28,
+        fontWeight:'bold',
+        marginBottom: 20,
+        color: '#333',
+        textAlign: 'center',
     },
     subtitle:{
-        fontSize:15,
-        fontWeight:'semibold',
-        marginBottom:5,
-        marginTop:7,
+        fontSize: 16,
+        fontWeight: '600',
+        marginBottom: 8,
+        marginTop: 15,
+        color: '#555',
+    },
+    input:{
+        borderColor: '#ddd',
+        borderRadius: 8,
+        borderWidth: 1,
+        padding: 12,
+        height: 120, 
+        textAlignVertical: 'top', 
+        backgroundColor: '#fff',
+        fontSize: 16,
+    },
+    boton2:{
+        backgroundColor: '#28a745', 
+        borderRadius: 8,
+        padding: 15,
+        alignItems:'center',
+        marginTop: 25,
+    },
+    boton2Text: { 
+        color: '#fff', 
+        fontWeight: 'bold', 
+        fontSize: 18
     },
     error:{
-        color:'red',
-        marginTop: 10,
-        textAlign: 'center'
+        color:'#dc3545',
+        marginTop: 15,
+        textAlign: 'center',
+        fontSize: 14,
+        fontWeight: '500',
     }
 });
 
