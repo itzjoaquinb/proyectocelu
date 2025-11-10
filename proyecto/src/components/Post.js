@@ -103,67 +103,83 @@ class Post extends Component{
 
 const styles = StyleSheet.create({
     conteiner:{
-        padding:10,
-        marginVertical: 5,
-        borderWidth: 1,
-        borderColor: '#ddd',
-        borderRadius: 8,
-        backgroundColor: '#fff',
+        padding: 15,
+        marginVertical: 8, 
+        marginHorizontal: 5,
+        borderWidth: 0, 
+        borderRadius: 12,
+        backgroundColor: '#fff', 
     },
     title:{
-        fontSize:16,
-        fontWeight:'bold',
-        marginBottom:3,
-        color: '#007bff',
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginBottom: 5,
+        color: '#007bff', 
     },
     message:{
-        fontSize:16,
-        marginBottom:10,
+        fontSize: 16,
+        marginBottom: 10,
+        color: '#333',
     },
     likes:{
-        fontSize:14,
-        marginBottom:5,
-        color:'gray'
-    },
-    boton:{
-        backgroundColor:'orange',
-        borderRadius:4,
-        padding:7,
-        alignItems:'center',
-    },
-    boton2:{
-        backgroundColor:'lightblue',
-        borderRadius:4,
-        padding:7,
-        alignItems:'center',
-    },
-    noAuth:{
-        fontSize:12,
-        color:'red',
-        textAlign:'center',
-        marginTop:5
+        fontSize: 14,
+        marginTop: 5, 
+        color: '#555',
+        fontWeight: '500',
     },
     actionsContainer: {
         flexDirection: 'row', 
-        justifyContent: 'space-between',
+        justifyContent: 'flex-start', 
         alignItems: 'center',
-        marginTop: 5,
+        marginTop: 10,
+        borderTopWidth: 1, 
+        borderTopColor: '#eee',
+        paddingTop: 10,
+    },
+    boton:{ 
+        backgroundColor: 'lightgreen',
+        borderRadius: 4,
+        padding: 5,
+        marginRight: 15,
+    },
+    boton2:{ 
+        backgroundColor: '#ff6676ff',
+        borderRadius: 4,
+        padding: 5,
+        marginRight: 15,
+    },
+    botonText: {
+        backgroundColor: 'green',
+        fontWeight: 'bold',
+        fontSize: 14
+    },
+    boton2Text: {
+        color: '#dc3545', 
+        fontWeight: 'bold',
+        fontSize: 14
+    },
+    commentText: {
+        color: '#007bff', 
+        fontWeight: 'bold',
+        padding: 5, 
     },
     deleteButton: {
-        backgroundColor: '#ff4d4d',
+        backgroundColor: '#dc3545', 
         borderRadius: 5,
         padding: 8,
+        marginLeft: 'auto',
     },
     deleteText: {
         color: 'white',
         fontWeight: 'bold',
         fontSize: 12,
     },
-    commentText: {
-        color: 'green',
-        fontWeight: '600',
-        paddingHorizontal: 10,
-    }
+    noAuth:{
+        fontSize:12,
+        color:'#ffc107', 
+        textAlign:'center',
+        marginTop:5
+    },
 });
 
 

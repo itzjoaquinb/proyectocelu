@@ -79,22 +79,32 @@ class Home extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1, 
+        backgroundColor: '#f9f9f9ff', 
         padding: 10,
     },
     loadingContainer: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#f9f9f9',
     },
     title: {
-        fontSize: 22,
+        fontSize: 24, 
         fontWeight: 'bold',
-        marginBottom: 10,
+        marginBottom: 15,
+        color: '#333',
+        paddingBottom: 10,
     },
     flatlist: {
         width: '100%',
         flex: 1 
     },
+    noPostsText: {
+        textAlign: 'center',
+        marginTop: 20,
+        fontSize: 16,
+        color: '#888',
+    }
 });
 
 export default Home;
