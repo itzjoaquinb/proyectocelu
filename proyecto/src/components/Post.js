@@ -56,7 +56,7 @@ class Post extends Component{
     render(){
         const postData = this.props.post.data;
         const totalLikes = postData.likes ? postData.likes.length : 0;
-        const userHasLiked = postData.likes.includes(auth.currentUser.email);
+        const userHasLiked = auth.currentUser && postData.likes.includes(auth.currentUser.email);
         // Verifica si la prop isOwnerProfile fue enviada (solo desde Profile.js)
         const isOwnerProfile = this.props.isOwnerProfile || false; 
 
