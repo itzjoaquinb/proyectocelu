@@ -101,41 +101,66 @@ class Comentarios extends Component {
 
 const styles = StyleSheet.create({
 
-  container: {
-    flex: 1,
-    backgroundColor: "#F5F8FA",
-    padding: 15,
-  },
-  title: {
-    fontSize: 22,
-    fontWeight: "bold",
-    marginBottom: 10,
-  },
-  commentBox: {
-    backgroundColor: "#fff",
-    borderRadius: 8,
-    padding: 10,
-    marginBottom: 8,
-  },
-  commentUser: { color: "#1DA1F2", fontWeight: "bold" },
-  commentText: { color: "#14171A" },
-  input: {
-    borderColor: "#E1E8ED",
-    borderWidth: 1,
-    borderRadius: 8,
-    padding: 10,
-    marginTop: 10,
-    backgroundColor: "#fff",
-  },
-  button: {
-    backgroundColor: "#1DA1F2",
-    padding: 12,
-    borderRadius: 8,
-    alignItems: "center",
-    marginTop: 10,
-  },
-  buttonText: { color: "#fff", fontWeight: "bold" },
-  error: { color: "#E0245E", marginTop: 10 },
+    container: {
+        flex: 1,
+        backgroundColor: "#f9f9f9", // Fondo consistente
+        padding: 15,
+    },
+    title: {
+        fontSize: 24,
+        fontWeight: "bold",
+        marginBottom: 15,
+        color: '#333',
+    },
+    commentBox: {
+        backgroundColor: "#fff",
+        borderRadius: 8,
+        padding: 12,
+        marginBottom: 10,
+        // Sombra sutil
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.05,
+        shadowRadius: 1,
+        elevation: 1,
+    },
+    commentUser: { 
+        color: "#007bff", // Azul primario para el usuario
+        fontWeight: "bold", 
+        marginBottom: 3 
+    },
+    commentText: { 
+        color: "#14171A",
+        fontSize: 15
+    },
+    input: {
+        borderColor: "#ddd",
+        borderWidth: 1,
+        borderRadius: 8,
+        padding: 10,
+        marginTop: 20,
+        backgroundColor: "#fff",
+        fontSize: 16,
+        height: 80, 
+        textAlignVertical: 'top',
+    },
+    button: {
+        backgroundColor: "#007bff", // Azul primario para enviar
+        padding: 12,
+        borderRadius: 8,
+        alignItems: "center",
+        marginTop: 10,
+    },
+    buttonText: { 
+        color: "#fff", 
+        fontWeight: "bold",
+        fontSize: 16
+    },
+    error: { 
+        color: "#dc3545", 
+        marginTop: 10,
+        textAlign: 'center' 
+    },
 });
 
 export default Comentarios;

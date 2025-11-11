@@ -147,8 +147,8 @@ class Profile extends Component{
 const styles = StyleSheet.create({
     conteiner:{
         flex: 1, 
-        padding:15,
-        backgroundColor: '#fff',
+        padding: 20,
+        backgroundColor: '#f9f9f9', // Fondo consistente
     },
     loadingContainer: {
         flex: 1,
@@ -156,35 +156,34 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     title:{
-        fontSize:26,
+        fontSize: 28,
         fontWeight:'bold',
-        marginBottom:15,
-        color: '#333'
+        marginBottom: 20,
+        color: '#333',
+        textAlign: 'center',
     },
     subtitle:{
-        fontSize:20,
+        fontSize: 20,
         fontWeight:'bold',
-        marginTop: 20,
-        marginBottom: 10,
-        borderBottomWidth: 1,
-        borderBottomColor: '#eee',
-        paddingBottom: 5,
+        marginTop: 25,
+        marginBottom: 15,
+        color: '#333',
     },
     infoText: {
         fontSize: 16,
-        marginBottom: 5,
+        marginBottom: 8,
         color: '#555',
     },
     label: {
         fontWeight: 'bold',
-        color: '#000',
+        color: '#333',
     },
     botonLogout:{
-        backgroundColor:'red',
-        borderRadius:5,
-        padding:12,
+        backgroundColor: '#dc3545', 
+        borderRadius: 8,
+        padding: 12,
         alignItems:'center',
-        marginTop: 15,
+        marginTop: 20,
     },
     textLogout: {
         color: 'white',
@@ -196,7 +195,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     errorText: {
-        color: 'red',
+        color: '#dc3545',
         marginTop: 10,
         textAlign: 'center',
     }
