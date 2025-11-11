@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     conteiner:{
         flex: 1, 
         padding: 20,
-        backgroundColor: '#f9f9f9', // Fondo consistente
+        backgroundColor: '#f9f9f9', 
     },
     loadingContainer: {
         flex: 1,

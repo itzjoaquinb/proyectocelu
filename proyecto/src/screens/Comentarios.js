@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
 
     container: {
         flex: 1,
-        backgroundColor: "#f9f9f9", // Fondo consistente
+        backgroundColor: "#f9f9f9", 
         padding: 15,
     },
     title: {
@@ -117,15 +117,9 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         padding: 12,
         marginBottom: 10,
-        // Sombra sutil
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 1 },
-        shadowOpacity: 0.05,
-        shadowRadius: 1,
-        elevation: 1,
     },
     commentUser: { 
-        color: "#007bff", // Azul primario para el usuario
+        color: "#007bff", 
         fontWeight: "bold", 
         marginBottom: 3 
     },
@@ -145,7 +139,7 @@ const styles = StyleSheet.create({
         textAlignVertical: 'top',
     },
     button: {
-        backgroundColor: "#007bff", // Azul primario para enviar
+        backgroundColor: "#007bff", 
         padding: 12,
         borderRadius: 8,
         alignItems: "center",
